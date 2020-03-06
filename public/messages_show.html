@@ -6,10 +6,8 @@
   <script src="bundle.js" async></script>
 </head>
 <body>
-  <div data-controller="hello">
-    <input data-target="hello.name" type="text">
-    <button data-action="click->hello#greet">Greet</button>
+  Message partial:
+  <div data-controller="content-loader" data-content-loader-url="/messages.html">
   </div>
-  <h1 data-controller="example"></h1>
 </body>
 </html>
